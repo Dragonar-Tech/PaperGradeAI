@@ -1,0 +1,27 @@
+﻿# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated data & models (regenerable via scripts, not source)
+data/*.csv
+models/*.pkl
+models/*.png
+models/*.json
+
+# Feedback log (runtime-generated, user-specific)
+data/feedback_log.csv
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
