@@ -1,0 +1,36 @@
+{
+  "targets": {
+    "Off_Spec": {
+      "known_loop_correlations": {
+        "Caliper": -0.116,
+        "Stock_Flow": -0.112,
+        "Machine_Speed": 0.094,
+        "Filler_Flow": -0.087,
+        "Steam_Pressure": -0.059,
+        "Moisture": -0.007,
+        "Ash": -0.001
+      },
+      "new_correlations": {
+        "Draw_Tension": 0.143,
+        "Refiner_Load": 0.003,
+        "Wire_Vacuum": 0.001
+      }
+    },
+    "Deviation_Pct": {
+      "known_loop_correlations": {
+        "Caliper": -0.185,
+        "Stock_Flow": -0.177,
+        "Machine_Speed": 0.149,
+        "Filler_Flow": -0.14,
+        "Steam_Pressure": -0.085,
+        "Moisture": -0.012,
+        "Ash": 0.001
+      },
+      "new_correlations": {
+        "Draw_Tension": 0.194,
+        "Refiner_Load": -0.014,
+        "Wire_Vacuum": -0.0
+      }
+    }
+  }
+}

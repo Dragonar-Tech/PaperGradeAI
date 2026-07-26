@@ -1,0 +1,77 @@
+{
+  "features": [
+    "Stock_Flow",
+    "Filler_Flow",
+    "Steam_Pressure",
+    "Machine_Speed",
+    "Moisture",
+    "Ash",
+    "Caliper",
+    "Wire_Vacuum",
+    "Refiner_Load",
+    "Draw_Tension",
+    "Target_BasisWeight",
+    "Time"
+  ],
+  "offspec_classifier": {
+    "accuracy": 0.9081666666666667,
+    "classification_report": {
+      "0": {
+        "precision": 0.9474140421843398,
+        "recall": 0.8988486842105263,
+        "f1-score": 0.9224926149950766,
+        "support": 3648.0
+      },
+      "1": {
+        "precision": 0.8546671918077984,
+        "recall": 0.9226190476190477,
+        "f1-score": 0.8873441014107545,
+        "support": 2352.0
+      },
+      "accuracy": 0.9081666666666667,
+      "macro avg": {
+        "precision": 0.9010406169960691,
+        "recall": 0.910733865914787,
+        "f1-score": 0.9049183582029156,
+        "support": 6000.0
+      },
+      "weighted avg": {
+        "precision": 0.9110572768367355,
+        "recall": 0.9081666666666667,
+        "f1-score": 0.9087143976700224,
+        "support": 6000.0
+      }
+    },
+    "feature_importance": {
+      "Time": 0.7900957512102151,
+      "Draw_Tension": 0.042971435816742655,
+      "Caliper": 0.022937643382624818,
+      "Stock_Flow": 0.021134782209782974,
+      "Machine_Speed": 0.018224135361187777,
+      "Filler_Flow": 0.01704334141491435,
+      "Wire_Vacuum": 0.01667674655366699,
+      "Refiner_Load": 0.01639763721891813,
+      "Ash": 0.01569410174977269,
+      "Moisture": 0.01552990923228256,
+      "Steam_Pressure": 0.014980303896347861,
+      "Target_BasisWeight": 0.008314211953544101
+    }
+  },
+  "stabilization_regressor": {
+    "mae_time_steps": 1.8604639392788107,
+    "feature_importance": {
+      "Time": 0.6551029960716952,
+      "Caliper": 0.09832812090564877,
+      "Draw_Tension": 0.04147297650053186,
+      "Stock_Flow": 0.026960462853742956,
+      "Machine_Speed": 0.025844386191856295,
+      "Filler_Flow": 0.025011137405210767,
+      "Wire_Vacuum": 0.02379692106109003,
+      "Ash": 0.022812652516892153,
+      "Refiner_Load": 0.022529122396151804,
+      "Moisture": 0.022055824262541796,
+      "Steam_Pressure": 0.022041693560488792,
+      "Target_BasisWeight": 0.014043706274149624
+    }
+  }
+}
